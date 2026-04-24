@@ -17,7 +17,7 @@ This spins up PostgreSQL on port **5432** and Redis on port **6379**.
 ```bash
 ./mvnw spring-boot:run
 ```
-The API starts on **http://localhost:8080**.  
+The API starts on **http://localhost:8050**.  
 Hibernate auto-creates all tables on first boot (`ddl-auto=update`).
 
 ### 3. Import the Postman collection
